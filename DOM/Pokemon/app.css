@@ -1,0 +1,29 @@
+body {
+    background-color: #dad7cd;
+}
+
+#container {
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    color: #344e41;
+}
+
+.pokemon {
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+}
+
+.pokemon img {
+    display: block;
+    background-color: #a3b18a;
+    border-color: 1px solid #344e41;
+    border-radius: 50%;
+}
+
+.label {
+    color: #344e41;
+}

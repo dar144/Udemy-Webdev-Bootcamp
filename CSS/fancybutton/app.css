@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #151b29;
+}
+
+button {
+    color: #fca311;
+    border: 2px solid #fca311;
+    padding: 1em 2em;
+    background: none;
+    font-size: 1em;
+    transition: color 0.15s, border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+}
+
+button:hover {
+    border-color: #f1ff5c;
+    color: white;
+    transform: translateY(-0.25em);
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    cursor: pointer;
+}
+
+button:active {
+    border-color: #ff5c5c;
+    color: red;
+    box-shadow: 0 0 1em 0.2em #ff5c5c;
+}
